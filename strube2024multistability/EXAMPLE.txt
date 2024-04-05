@@ -1,0 +1,28 @@
+#strube2024infection/Codes/EXAMPLE
+
+To generate simulations related to the disease-free system (u=0,w=1):
+
+Choose options (at first 3 prompts):
+- (2) Generate original data and figures
+- (2) Generate new data and figures
+- (2) Be prompted to enter your desired simulation conditions for a single run 
+
+Then the following:
+Would you like to record a run description? (Y=1/N=0) > 1
+Enter a brief description here: > Test
+Would you like to change any of them [Parameters]? (Y=1/N=0) > 0
+Would you like to change any of them [Initial Conditions]? (Y=1/N=0) > 0
+First Bifurcation Parameter:>1 
+Second Bifurcation Parameter:> 3
+Enter the desired increments for the first bifurcation parameter: [start,size,stop]> [0,.5,320]
+Enter the desired increments for the second bifurcation parameter: [start,size,stop]>[0,0.001,1]
+Enter your desired value of n. (recommended: 7) >7
+What is your desired limit cycle threshold size? (recommended: 16) > 16
+Enter the desired quantity of "transient" simulation time steps: (recommended: 10,000) > 10,000
+How many time steps would you like to use in the generation of the orbit maps? (recommended: 48) >48
+How many time steps would you like to use in the population average calculations? (recommended: 2,000) > 2000
+Do you wish to proceed? Y=1/N=0  >1
+ Would you like to use parallel processing (Strongly recommended, requires the Parallel Computing Toolbox) Y=1/N=0 >0
+
+
+You will then be prompted with figure options.
